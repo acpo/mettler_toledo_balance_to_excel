@@ -15,4 +15,9 @@ As written the Excel macro writes the mass passed to it by python, then moves on
 ## Requirements  
 - xlWings addin for Excel (`xlwings.xlam`).  Read the instructions at https://docs.xlwings.org/en/stable/addin.html#xlwings-addin  
 - xlwings Python library (usually `pip install xlwings`)  
-This was tested on a Mettler Toledo XS105 connected via an RS-232 to USB cable.  
+This was tested on a Mettler Toledo XS105 connected via an RS-232 to USB cable on a Windows 7 system using Python 2.7.  
+
+## Port settings  
+The port settings are in the .py file.  You will likely need to change the `port='COM1'` to your relevant COM port.  
+
+## Other good ideas  
