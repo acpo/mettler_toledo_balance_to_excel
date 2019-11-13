@@ -21,3 +21,4 @@ This was tested on a Mettler Toledo XS105 connected via an RS-232 to USB cable o
 The port settings are in the .py file.  You will likely need to change the `port='COM1'` to your relevant COM port.  
 
 ## Other good ideas  
+https://github.com/janelia-pypi/mettler_toledo_device_python  has some good, clever, and better ideas about how to communicate with a Mettler balance.  
