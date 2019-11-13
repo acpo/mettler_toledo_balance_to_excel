@@ -3,9 +3,11 @@ A python script to read a Mettler balance and pass the value to Excel via https:
 ## Usage  
 The python file and the Excel file need to be in the same directory.  
 In the Excel worksheet, write a macro with:
-```Sub Button1_Click()
+```
+Sub Button1_Click()
     RunPython ("import balance_read_mettler; balance_read_mettler.get_mass()")
     ActiveCell.Offset(0, 1).Select
-End Sub```
+End Sub
+```
 
-As written the Excel macro writes the mass passed to it by python, then moves one cell to the right ```ActiveCell.Offset(0, 1).Select```  If you want to move down one cell instead then you would use ```(1, 0)```.    
+As written the Excel macro writes the mass passed to it by python, then moves one cell to the right `ActiveCell.Offset(0, 1).Select`  If you want to move down one cell instead then you would use `(1, 0)`.    
