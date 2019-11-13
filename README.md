@@ -15,3 +15,4 @@ As written the Excel macro writes the mass passed to it by python, then moves on
 ## Requirements  
 - xlWings addin for Excel (`xlwings.xlam`).  Read the instructions at https://docs.xlwings.org/en/stable/addin.html#xlwings-addin  
 - xlwings Python library (usually `pip install xlwings`)  
+This was tested on a Mettler Toledo XS105 connected via an RS-232 to USB cable.  
