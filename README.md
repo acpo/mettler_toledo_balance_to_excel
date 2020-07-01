@@ -18,7 +18,7 @@ As written the Excel macro writes the mass passed to it by python, then moves on
 This was tested on a Mettler Toledo XS105 connected via an RS-232 to USB cable on a Windows 7 system using Python 2.7.  
 
 ## Port settings  
-The port settings are in the .py file.  You will likely need to change the `port='COM1'` to your relevant COM port.  
+The port settings are in the .py file.  You will likely need to change the `port='COM1'` to your relevant COM port.  This is for a Windows OS.  The relevant port settings for MacOS or Linux are commented out in the .py file.  
 
 ## Other good ideas  
 https://github.com/janelia-pypi/mettler_toledo_device_python  has some good, clever, and better ideas about how to communicate with a Mettler balance.  
