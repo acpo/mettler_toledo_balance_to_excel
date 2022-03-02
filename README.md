@@ -1,5 +1,7 @@
 # mettler_toledo_balance_to_excel
 A python script to read a Mettler balance and pass the value to Excel via https://github.com/xlwings/xlwings
+An open-source version using Libre Office and Python is in [another repository](https://github.com/acpo/mettler_toledo_balance_to_libreoffice).  
+
 ## Usage  
 The python file and the Excel file need to be in the same directory.  
 In the Excel worksheet, assign a keystroke or make a button and assign a macro with the following:
